@@ -1,6 +1,7 @@
-var webpack = require("webpack")
-var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
-var path = require('path')
+const webpack = require("webpack")
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const path = require('path')
+const DashboardPlugin = require('webpack-dashboard/plugin')
 
 process.noDeprecation = true
 
@@ -52,6 +53,7 @@ module.exports = {
                 NODE_ENV: JSON.stringify("production")
             }
         }),
+        new DashboardPlugin(),
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,
             warnings: false,
