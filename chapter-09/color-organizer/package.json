@@ -21,15 +21,15 @@
   "devDependencies": {
     "babel-core": "6.24.1",
     "babel-loader": "7.0.0",
-    "babel-preset-env": "1.4.0",
+    "babel-preset-env": "1.5.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-0": "6.24.1",
-    "css-loader": "0.28.1",
+    "css-loader": "0.28.2",
     "node-sass": "4.5.3",
     "postcss-loader": "2.0.5",
     "sass-loader": "6.0.5",
-    "style-loader": "0.17.0",
-    "webpack": "2.5.1"
+    "style-loader": "0.18.1",
+    "webpack": "2.6.0"
   },
   "dependencies": {
     "httpster": "1.0.3",
